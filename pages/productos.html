@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="../css/styles.css">
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Club"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <title>Club Cannabico Greendoor</title>
+
+</head>
+
+<body>
+
+
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-lg bg-light navbar-custom">
+        <div class="container-fluid ">
+            <a class="navbar-brand" href="#"><img src="../images/logo greendoor.png" width="15%" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link navbar-brand" aria-current="page" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navbar-brand" href="./membresias.html">Membresias</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navbar-brand" href="./productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navbar-brand" href="./galeria.html">Galeria</a>
+                    </li>
+                    <li class="nav-item" id="login">
+                        <a class="nav-link navbar-brand" href="../pages/login.html">Ingresar</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <body>
+
+
+        <div class="container container-productos">
+            <section>
+                <h2>Nuestras geneticas!</h2>
+                <p>
+                    Las geneticas que ofrecemos son seleccionadas por los miembros del club temporada a temporada, para
+                    asi asegurar que nuestros socios pueden obtener lo que piden.
+                </p>
+                <div class="genCards">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../images/24kgold.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">
+                                Nombre : 24kgold
+                                <br>
+                                Genetica: Indica dominante (60%)
+                                <br>
+                                THC : 18-24%
+                                <br>
+                                Sabor: Citrico, Fresco
+                                <br>
+                                Efecto : Fuerte
+                            </p>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="card" style="width: 18rem;">
+                        <img src="../images/cream caramel.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">
+                                Nombre : Cream Caramel
+                                <br>
+                                Genetica: Indica dominante (90%)
+                                <br>
+                                THC : 15-20%
+                                <br>
+                                Sabor: Dulce, Terroso
+                                <br>
+                                Efecto : Fuerte
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="card" style="width: 18rem;">
+                        <img src="../images/gelato33.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">
+                                Nombre : Gelato33
+                                <br>
+                                Genetica: Hibrido sativa/indica (50%)
+                                <br>
+                                THC : 25%
+                                <br>
+                                Sabor: Citrico, Terroso
+                                <br>
+                                Efecto : Equilibrado
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+            <hr>
+            <section>
+                <h2>Selecciones</h2>
+                <p>
+                    Los miembros de Club Cannabico Green Doors votamos por geneticas sugeridas en una lista aqui debajo.
+                    Tambien agregamos sugerencias a pedido de los miembros.
+                </p>
+                <br>
+            </section>
+
+
+            <section>
+
+
+
+            </section>
+            <p>
+
+                <button class="btn btn-success" id="btnGene" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                    Haga click aqui para ver el pool de sugerencias
+                </button>
+            </p>
+            <div class="collapse" id="collapseExample">
+                <div class="card card-body">
+                    <p id="listaGen">
+
+                    </p>
+                </div>
+            </div>
+
+
+
+
+        </div>
+
+
+
+
+
+
+        <script src="../js/productos.js" type="module"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+            crossorigin="anonymous"></script>
+    </body>
+
+</html>

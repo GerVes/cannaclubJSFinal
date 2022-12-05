@@ -1,0 +1,44 @@
+#body-login {
+    display: flex;
+    background-color: rgba(#415F18);
+    opacity: 1;
+    justify-content: center;
+ 
+
+}
+
+
+
+.navbar-nav>li {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Lato', serif;
+    font-size: 16px;
+    text-shadow: 4px 4px 4px #aaa;
+}
+
+
+.title {
+    color: green;
+    text-shadow: 4px 4px 4px #aaa;
+    font-family: 'Lato';
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: green;
+}
+
+
+
+.login-logo {
+    width: 25rem;
+}
+
+.genCards {
+    display: flex;
+    justify-content: space-between;
+}
+
