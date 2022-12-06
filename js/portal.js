@@ -23,7 +23,11 @@ const retirarCuota = cantidad => {
 
         stock -= cantidad;
 
-        Swal.fire("su stock restante es " + stock)
+        Swal.fire(
+            'Listo!',
+            'Su stock restante es de '  + stock + ' gramos a retirar dentro de este mes',
+            'success'
+        )
     }
 
 

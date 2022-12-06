@@ -11,7 +11,7 @@ const arrayStr = JSON.stringify(arrayGen);
 
 document.getElementById("listaGen").innerHTML = arrayStr;
 
-
+const strTable = document.getElementById("#strain-Table")
 
 function refreshGenTable() {
 

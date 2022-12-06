@@ -42,3 +42,12 @@
     justify-content: space-between;
 }
 
+.portal-container{
+    display: flex;
+    justify-content: center;
+}
+
+#btnRetirarStock, #btnVerGen {
+    display: flex;
+    justify-content: center;
+}
